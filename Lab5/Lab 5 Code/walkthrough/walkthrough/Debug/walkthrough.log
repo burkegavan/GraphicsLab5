@@ -1,0 +1,17 @@
+﻿Build started 09/11/2015 14:56:41.
+     1>Project "C:\Users\Gavan\Desktop\Gavan\4th Year\Graphics\Lab5\Lab 5 Code\walkthrough\walkthrough\walkthrough.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Gavan\Desktop\Gavan\4th Year\Graphics\Lab5\Lab 5 Code\walkthrough\glew-1.10.0\include" /I"C:\Users\Gavan\Desktop\Gavan\4th Year\Graphics\Lab5\Lab 5 Code\assimp\include" /I"C:\Users\Gavan\Desktop\Gavan\4th Year\Graphics\Lab5\Lab 5 Code\walkthrough\freeglut\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\main.cpp
+         main.cpp
+     1>c:\users\gavan\desktop\gavan\4th year\graphics\lab5\lab 5 code\walkthrough\main.cpp(109): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\gavan\desktop\gavan\4th year\graphics\lab5\lab 5 code\walkthrough\main.cpp(267): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gavan\Desktop\Gavan\4th Year\Graphics\Lab5\Lab 5 Code\walkthrough\Debug\walkthrough.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Gavan\Desktop\Gavan\4th Year\Graphics\Lab5\Lab 5 Code\assimp\lib\Debug" /LIBPATH:"C:\Users\Gavan\Desktop\Gavan\4th Year\Graphics\Lab5\Lab 5 Code\walkthrough\glew-1.10.0\lib\Release\Win32" /LIBPATH:"C:\Users\Gavan\Desktop\Gavan\4th Year\Graphics\Lab5\Lab 5 Code\walkthrough\freeglut\lib" freeglut.lib glew32.lib assimp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Gavan\Desktop\Gavan\4th Year\Graphics\Lab5\Lab 5 Code\walkthrough\Debug\walkthrough.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gavan\Desktop\Gavan\4th Year\Graphics\Lab5\Lab 5 Code\walkthrough\Debug\walkthrough.lib" /MACHINE:X86 Debug\main.obj
+         Debug\maths_funcs.obj
+         walkthrough.vcxproj -> C:\Users\Gavan\Desktop\Gavan\4th Year\Graphics\Lab5\Lab 5 Code\walkthrough\Debug\walkthrough.exe
+     1>Done Building Project "C:\Users\Gavan\Desktop\Gavan\4th Year\Graphics\Lab5\Lab 5 Code\walkthrough\walkthrough\walkthrough.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.98
